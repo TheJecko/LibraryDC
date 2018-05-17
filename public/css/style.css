@@ -1,0 +1,65 @@
+body {
+	background-image: url("/img/library.jpg");
+	background-attachment: fixed;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container
+ {
+	width: 100%;
+	margin: 0px auto;
+}	
+
+img {
+	display:block;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav,
+.nav-tabs
+ {
+	width: 70%;
+	margin: 0px auto;
+	justify-content: center;
+}
+ 
+form {
+	margin: 30px 40px 200px 50px;
+	line-height: 2em;
+	padding: 12px;	
+}
+
+form input,
+textarea {
+	border-radius: 5px;
+}
+
+form label {
+	padding: 15px;
+}
+
+#main-text {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#main-text h3 {
+	font-family: Garamond, serif;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#main-text  h4 {
+	font-family: Garamond, serif;
+	font-style: italic;
+}
+
+#blog-text {
+	display: inline-block;
+	font-family: Garamond, serif;
+
+}
+
